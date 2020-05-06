@@ -1,0 +1,99 @@
+*	{
+	box-sizing: border-box;
+}
+h1	{
+	font-family: Comic Sans MS;
+}
+body {
+	background-color: PaleTurquoise;
+}
+center {
+	background-color: CornflowerBlue;
+	border: 5px inset DarkCyan;
+	border-radius: 50px;
+	color: #DCDCDC;
+	margin: 5px;
+}
+
+.topnav {
+  background-color: DarkCyan;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.list {
+	border: 5px groove DarkCyan;
+}
+ul {
+	color: DarkGreen;
+	background-color: SpringGreen;
+}
+li {
+	color: DarkGreen;
+	background-color: LightSeaGreen;
+}
+p {
+	background-color: blue;
+	color: white;
+	border: 3px solid #A569BD;
+	flex: 1;
+}
+.about	{
+	display: flex;
+	flex: 2;
+}
+.about2	{
+	display: flex;
+	justify-content:space-evenly;
+}
+.container	{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.Shrek {
+	width: 300px;
+	height: 200px;
+	border: 5px solid #4d8775;
+	border-radius: 25px;
+}
+.Barry {
+	width: 300px;
+	height: 200px;
+	border: 5px solid #EAA000;
+	border-radius: 25px;
+}
+.Oscar {
+	width: 300px;
+	height: 200px;
+	border: 5px solid #0064B1;
+	border-radius: 25px;
+}
+.Cat1 {
+	width: 600px;
+	height: 250px;
+	border: 5px solid #FF0000;
+	border-radius: 25px;
+}
+.Text1	{
+	font-family: Impact;
+	color: white;
+	background-color: black;
+	border: 3px solid white;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+}
